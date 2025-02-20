@@ -1,0 +1,76 @@
+[2025-02-14T10:00:41.664+0000] {processor.py:157} INFO - Started process (PID=53) to work on /opt/airflow/dags/gx.py
+[2025-02-14T10:00:41.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gx.py for tasks to queue
+[2025-02-14T10:00:41.668+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:00:41.667+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gx.py
+[2025-02-14T10:00:46.597+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:00:46.595+0000] {warnings.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103: UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+  warn_incompatible_dep(
+[2025-02-14T10:00:47.436+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:00:47.433+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gx.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gx.py", line 3, in <module>
+    from great_expectations_provider.operators.great_expectations import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations_provider/operators/great_expectations.py", line 30, in <module>
+    from great_expectations.checkpoint.types.checkpoint_result import CheckpointResult
+ModuleNotFoundError: No module named 'great_expectations.checkpoint.types'
+[2025-02-14T10:00:47.437+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gx.py
+[2025-02-14T10:00:47.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gx.py took 5.851 seconds
+[2025-02-14T10:01:36.370+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/gx.py
+[2025-02-14T10:01:36.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gx.py for tasks to queue
+[2025-02-14T10:01:36.624+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:01:36.622+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gx.py
+[2025-02-14T10:01:39.493+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:01:39.492+0000] {warnings.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103: UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+  warn_incompatible_dep(
+[2025-02-14T10:01:40.233+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:01:40.232+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gx.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gx.py", line 3, in <module>
+    from great_expectations_provider.operators.great_expectations import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations_provider/operators/great_expectations.py", line 30, in <module>
+    from great_expectations.checkpoint.types.checkpoint_result import CheckpointResult
+ModuleNotFoundError: No module named 'great_expectations.checkpoint.types'
+[2025-02-14T10:01:40.234+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gx.py
+[2025-02-14T10:01:40.250+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gx.py took 18.093 seconds
+[2025-02-14T10:02:34.099+0000] {processor.py:157} INFO - Started process (PID=95) to work on /opt/airflow/dags/gx.py
+[2025-02-14T10:02:25.370+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gx.py for tasks to queue
+[2025-02-14T10:02:27.168+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:02:26.532+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gx.py
+[2025-02-14T10:03:03.848+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:02:58.575+0000] {timeout.py:68} ERROR - Process timed out, PID: 95
+[2025-02-14T10:03:49.150+0000] {processor.py:157} INFO - Started process (PID=122) to work on /opt/airflow/dags/gx.py
+[2025-02-14T10:03:49.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gx.py for tasks to queue
+[2025-02-14T10:03:49.157+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:03:49.155+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gx.py
+[2025-02-14T10:03:53.522+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:03:53.521+0000] {warnings.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103: UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+  warn_incompatible_dep(
+[2025-02-14T10:03:54.188+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:03:54.187+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gx.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gx.py", line 3, in <module>
+    from great_expectations_provider.operators.great_expectations import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations_provider/operators/great_expectations.py", line 30, in <module>
+    from great_expectations.checkpoint.types.checkpoint_result import CheckpointResult
+ModuleNotFoundError: No module named 'great_expectations.checkpoint.types'
+[2025-02-14T10:03:54.189+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gx.py
+[2025-02-14T10:03:54.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gx.py took 5.062 seconds
+[2025-02-14T10:04:24.294+0000] {processor.py:157} INFO - Started process (PID=143) to work on /opt/airflow/dags/gx.py
+[2025-02-14T10:04:24.297+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gx.py for tasks to queue
+[2025-02-14T10:04:24.302+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:04:24.302+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gx.py
+[2025-02-14T10:04:26.971+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:04:26.971+0000] {warnings.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/snowflake/connector/options.py:103: UserWarning: You have an incompatible version of 'pyarrow' installed (11.0.0), please install a version that adheres to: 'pyarrow<10.1.0,>=10.0.1; extra == "pandas"'
+  warn_incompatible_dep(
+[2025-02-14T10:04:27.676+0000] {logging_mixin.py:151} INFO - [2025-02-14T10:04:27.675+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/gx.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/gx.py", line 3, in <module>
+    from great_expectations_provider.operators.great_expectations import (
+  File "/home/airflow/.local/lib/python3.8/site-packages/great_expectations_provider/operators/great_expectations.py", line 30, in <module>
+    from great_expectations.checkpoint.types.checkpoint_result import CheckpointResult
+ModuleNotFoundError: No module named 'great_expectations.checkpoint.types'
+[2025-02-14T10:04:27.676+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/gx.py
+[2025-02-14T10:04:27.693+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gx.py took 3.409 seconds
